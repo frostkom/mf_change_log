@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-18 13:45+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Martin Fors\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: sv_SE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../include/functions.php:77
+#, php-format
+msgid "I just saw %s permanently delete '%s', is this alright?"
+msgstr "Jag såg precis %s permanent radera '%s', är detta okej?"
+
+#: ../include/functions.php:92
+msgid "Auto-Draft"
+msgstr "Autosparad"
+
+#: ../include/functions.php:93
+msgid "Draft"
+msgstr "Utkast"
+
+#: ../include/functions.php:94
+msgid "Scheduled"
+msgstr "Tidsinställd"
+
+#: ../include/functions.php:95
+msgid "Pending"
+msgstr "Väntar på granskning"
+
+#: ../include/functions.php:96
+msgid "Published"
+msgstr "Publicerad"
+
+#: ../include/functions.php:97
+msgid "Trash"
+msgstr "Papperskorgen"
+
+#: ../include/functions.php:127
+msgid "There are no status changes so far"
+msgstr "Det fanns inga statusändringar ännu"
+
+#: ../include/functions.php:141
+msgid "Status Changes"
+msgstr "Statusändringar"
+
+#~ msgid "Future"
+#~ msgstr "Tidsinställd"
+
+#~ msgid "Display a vCard with custom information"
+#~ msgstr "Visa en vCard med valfri information"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "Organization"
+#~ msgstr "Företag"
+
+#~ msgid "Organization Number"
+#~ msgstr "Organisationsnummer"
+
+#~ msgid "Address"
+#~ msgstr "Adress"
+
+#~ msgid "Zip Code"
+#~ msgstr "Postnummer"
+
+#~ msgid "City"
+#~ msgstr "Ort"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Email"
+#~ msgstr "Epost"
+
+#~ msgid "E-mail form"
+#~ msgstr "E-postformulär"
+
+#~ msgid "Show icons"
+#~ msgstr "Visa ikoner"
+
+#~ msgid "Organization no"
+#~ msgstr "Organisationsnummer"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid "Choose here"
+#~ msgstr "Välj här"
+
+#~ msgid "Company"
+#~ msgstr "Företag"
+
+#~ msgid "Number"
+#~ msgstr "Nummer"
+
+#~ msgid "Decimal number"
+#~ msgstr "Decimaltal"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Checkbox"
+#~ msgstr "Kryssruta"
+
+#~ msgid "Range"
+#~ msgstr "Spann"
+
+#~ msgid "Input field"
+#~ msgstr "Textrad"
+
+#~ msgid "Textarea"
+#~ msgstr "Textfält"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Space"
+#~ msgstr "mellanrum"
+
+#~ msgid "Datepicker"
+#~ msgstr "Datumväljare"
+
+#~ msgid "Radio button"
+#~ msgstr "Flervalsalternativ"
+
+#~ msgid "Referer URL"
+#~ msgstr "Referens-URL"
+
+#~ msgid "Dropdown"
+#~ msgstr "Rullgardin"
+
+#~ msgid "Multiple selection"
+#~ msgstr "Rullgardin (flerval)"
+
+#~ msgid "Hidden field"
+#~ msgstr "Dolt fält"
+
+#~ msgid "Social security number"
+#~ msgstr "Personnummer"
+
+#~ msgid "digits"
+#~ msgstr "siffror"
+
+#~ msgid "auml"
+#~ msgstr "ä"
+
+#~ msgid "ouml"
+#~ msgstr "ö"
+
+#~ msgid "Aring"
+#~ msgstr "Å"
+
+#~ msgid "Auml"
+#~ msgstr "Ä"
+
+#~ msgid "Ouml"
+#~ msgstr "Ö"
+
+#~ msgid "Answers in"
+#~ msgstr "Svar i"
+
+#~ msgid "Search"
+#~ msgstr "Sök"
+
+#~ msgid "Payment"
+#~ msgstr "Betalning"
+
+#~ msgid "Created"
+#~ msgstr "Skapad"
+
+#~ msgid "Sent e-mails"
+#~ msgstr "Skickade e-post"
+
+#~ msgid "There is nothing to show"
+#~ msgstr "Det finns inget att visa"
+
+#~ msgid "Edit"
+#~ msgstr "Redigera"
+
+#~ msgid "Delete"
+#~ msgstr "Radera"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Sent to"
+#~ msgstr "Skickat till"
+
+#~ msgid "Sent"
+#~ msgstr "Skickat"
+
+#~ msgid "Please, enter all required fields"
+#~ msgstr "Var vänlig fyll i alla obligatoriska fält"
+
+#~ msgid "Couldn't update the field"
+#~ msgstr "Det gick inte att uppdatera fältet"
+
+#~ msgid "Couldn't insert the new field"
+#~ msgstr "Det gick inte att lägga in det nya fältet"
+
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+#~ msgid "Add New"
+#~ msgstr "Lägg till ny"
+
+#~ msgid "Content"
+#~ msgstr "Innehåll"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Validate as"
+#~ msgstr "Validera som"
+
+#~ msgid "Placeholder Text"
+#~ msgstr "Valfri text"
+
+#~ msgid "Feel free to write anything you like here"
+#~ msgstr "Här kan du fylla i valfri text som visas i textfältet"
+
+#~ msgid "Custom CSS class"
+#~ msgstr "Anpassad CSS-klass"
+
+#~ msgid "Min value"
+#~ msgstr "Minsta värde"
+
+#~ msgid "Max value"
+#~ msgstr "Högsta värde"
+
+#~ msgid "Default value"
+#~ msgstr "Standardvärde"
+
+#~ msgid "Value"
+#~ msgstr "Värde"
+
+#~ msgid "Enter option here"
+#~ msgstr "Skriv in alternativ här"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Preview"
+#~ msgstr "Förhandsgranska"
+
+#~ msgid "Choose page here"
+#~ msgstr "Välj sida här"
+
+#~ msgid "Confirmation page"
+#~ msgstr "Bekräftelsesida"
+
+#~ msgid "Send e-mail confirmation to questionnaire"
+#~ msgstr "Skicka e-postbekräftelse till besökaren"
+
+#~ msgid "E-mail confirmation content"
+#~ msgstr "Innehåll för e-postbekräftelse"
+
+#~ msgid ""
+#~ "If you don't choose a page, the content of the form will be sent as "
+#~ "content"
+#~ msgstr "Om du inte väljer en sida skickas istället svaren från formuläret"
+
+#~ msgid "Improve UX"
+#~ msgstr "Förbättra användarupplevelsen"
+
+#~ msgid "Send e-mail from/to"
+#~ msgstr "Skicka e-post från/till"
+
+#~ msgid "Send notification on new answer"
+#~ msgstr "Skicka e-post vid nytt svar"
+
+#~ msgid "Subject"
+#~ msgstr "Ämne"
+
+#~ msgid "Button"
+#~ msgstr "Knapp"
+
+#~ msgid "Button text"
+#~ msgstr "Knapptext"
+
+#~ msgid "Submit"
+#~ msgstr "Skicka"
+
+#~ msgid "Provider"
+#~ msgstr "Leverantör"
+
+#~ msgid "Merchant ID"
+#~ msgstr "Butiks-ID"
+
+#~ msgid "Merchant E-mail"
+#~ msgstr "E-post"
+
+#~ msgid "HMAC key"
+#~ msgstr "HMAC-nyckel"
+
+#~ msgid "Secret word"
+#~ msgstr "Hemligt ord"
+
+#~ msgid "Danish Krone"
+#~ msgstr "Danska kronor"
+
+#~ msgid "US Dollar"
+#~ msgstr "Amerikanska dollar"
+
+#~ msgid "English Pound"
+#~ msgstr "Brittiska pund"
+
+#~ msgid "Swedish Krona"
+#~ msgstr "Svenska kronor"
+
+#~ msgid "Australian Dollar"
+#~ msgstr "Australiensiska dollar"
+
+#~ msgid "Canadian Dollar"
+#~ msgstr "Kanadensiska dollar"
+
+#~ msgid "Icelandic Krona"
+#~ msgstr "Isländska kronor"
+
+#~ msgid "Japanese Yen"
+#~ msgstr "Japanska yen"
+
+#~ msgid "New Zealand Dollar"
+#~ msgstr "Nya Zeeländska dollar"
+
+#~ msgid "Norwegian Krone"
+#~ msgstr "Norska kronor"
+
+#~ msgid "Swiss Franc"
+#~ msgstr "Schweiziska franc"
+
+#~ msgid "Turkish Lira"
+#~ msgstr "Turkiska lira"
+
+#~ msgid "Currency"
+#~ msgstr "Valuta"
+
+#~ msgid "Field for accepting payment"
+#~ msgstr "Fält för att acceptera betalning"
+
+#~ msgid "Field for payment cost"
+#~ msgstr "Fält för kostnad"
+
+#~ msgid "Forms"
+#~ msgstr "Formulär"
+
+#~ msgid "Form"
+#~ msgstr "formulär"
+
+#~ msgid "Click here to send e-mail"
+#~ msgstr "Klicka här för att skicka e-post"
+
+#~ msgid "Form to replace all e-mail links"
+#~ msgstr "Formulär för att ersätta alla e-postlänkar"
+
+#~ msgid ""
+#~ "If you would like all e-mail links in text to be replaced by a form, "
+#~ "choose one here"
+#~ msgstr ""
+#~ "Om du vill att alla e-postlänkar i text ska ersättas med ett formulär, "
+#~ "välj det här"
+
+#~ msgid "Unread answers"
+#~ msgstr "Olästa svar"
+
+#~ msgid "Last Answers"
+#~ msgstr "Senaste svaren"
+
+#~ msgid "Edit Last Answer"
+#~ msgstr "Redigera senaste svar"
+
+#~ msgid "Sent successfully"
+#~ msgstr "Härligt! Det skickades!"
+
+#~ msgid "Error sending"
+#~ msgstr "Ajdå, fel vid utskick"
+
+#~ msgid "Thank you!"
+#~ msgstr "Tack så mycket!"
+
+#~ msgid "Hidden"
+#~ msgstr "Dold"
+
+#~ msgid "Required"
+#~ msgstr "Obligatoriskt"
+
+#~ msgid "Autofocus"
+#~ msgstr "Fokusera automatiskt"
+
+#~ msgid "Perform test payment"
+#~ msgstr "Genomför testbetalning"
+
+#~ msgid "Edit this form"
+#~ msgstr "Redigera formuläret"
+
+#~ msgid ""
+#~ "Something went wrong. Contact your admin and add this URL as reference"
+#~ msgstr ""
+#~ "Något gick fel. Kontakta en administratör och skicka med denna URL som "
+#~ "referens"
+
+#~ msgid "Wow! The form was copied successfully!"
+#~ msgstr "Wow! Formuläret kopierades!"
+
+#~ msgid ""
+#~ "Could not create a folder in uploads. Please add the correct rights for "
+#~ "the script to create a new subfolder"
+#~ msgstr ""
+#~ "Det gick inte att skapa en mapp i uploads. Lägg till rätt behörigheter "
+#~ "för mappen uploads så att det går att skapa en undermapp"
+
+#~ msgid "Row count"
+#~ msgstr "Antal rader"
+
+#~ msgid "The form was successfully exported to"
+#~ msgstr "Formuläret exporterades utan problem till"
+
+#~ msgid "It was not possible to export all answers from"
+#~ msgstr "Det gick inte att exportera alla svar från"
+
+#~ msgid "and"
+#~ msgstr "och"
+
+#~ msgid "All forms"
+#~ msgstr "Alla formulär"
+
+#~ msgid "Shortcode"
+#~ msgstr "Kortkod"
+
+#~ msgid "Answers"
+#~ msgstr "Svar"
+
+#~ msgid "Recover"
+#~ msgstr "Återställ"
+
+#~ msgid "Edit Page"
+#~ msgstr "Redigera sida"
+
+#~ msgid "View page"
+#~ msgstr "Visa sida"
+
+#~ msgid "Add New Page"
+#~ msgstr "Lägg till ny sida"
+
+#~ msgid "Export Answers"
+#~ msgstr "Exportera svar"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "Encrypted"
+#~ msgstr "Krypterade svar"
+
+#~ msgid "Export"
+#~ msgstr "Exportera"
+
+#~ msgid "Back"
+#~ msgstr "Bakåt"
+
+#~ msgid "swe_o"
+#~ msgstr "ö"
+
+#~ msgid "See DIBS test info"
+#~ msgstr "Se DIBS testinfo"
+
+#~ msgid "Send in test mode (No money will be charged)"
+#~ msgstr "Skicka i testläge (Pengar kommer ej att dras)"
+
+#~ msgid "space"
+#~ msgstr "mellanslag"
+
+#~ msgid "Payment (DIBS)"
+#~ msgstr "Betalning (DIBS)"
+
+#~ msgid "All Forms"
+#~ msgstr "Alla formulär"
+
+#~ msgid "Deleted"
+#~ msgstr "Borttagen"
+
+#~ msgid "Deny Duplicates"
+#~ msgstr "Spärra dubletter"
