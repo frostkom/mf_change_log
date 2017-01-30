@@ -63,7 +63,7 @@ function post_updated_change_log($post_id, $post_after, $post_before)
 	}
 }
 
-function before_delete_post_change_log($post_id)
+/*function before_delete_post_change_log($post_id)
 {
 	$user_id = get_current_user_id();
 
@@ -76,7 +76,7 @@ function before_delete_post_change_log($post_id)
 
 		do_log(sprintf(__("I just saw %s permanently delete '%s', is this alright?", 'lang_change_log'), $user_name, $post_title));
 	}
-}
+}*/
 
 function get_status_changes()
 {

@@ -3,7 +3,7 @@
 Plugin Name: MF Change Log
 Plugin URI: 
 Description: 
-Version: 1.2.1
+Version: 1.2.2
 Author: Martin Fors
 Author URI: http://frostkom.se
 Text Domain: lang_change_log
@@ -19,7 +19,7 @@ if(is_admin())
 	register_activation_hook(__FILE__, 'activate_change_log');
 
 	add_action('post_updated', 'post_updated_change_log', 10, 3);
-	add_action('before_delete_post', 'before_delete_post_change_log');
+	//add_action('before_delete_post', 'before_delete_post_change_log');
 
 	add_action('rwmb_meta_boxes', 'meta_boxes_change_log');
 }
