@@ -1,10 +1,5 @@
 <?php
 
-function activate_change_log()
-{
-	require_plugin("meta-box/meta-box.php", "Meta Box");
-}
-
 function post_updated_change_log($post_id, $post_after, $post_before)
 {
 	$arr_exclude = array('mf_log', 'mf_status_change', 'attachment', 'nav_menu_item', 'revision', 'template');

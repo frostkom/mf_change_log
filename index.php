@@ -3,7 +3,7 @@
 Plugin Name: MF Change Log
 Plugin URI: 
 Description: 
-Version: 1.2.2
+Version: 1.2.3
 Author: Martin Fors
 Author URI: http://frostkom.se
 Text Domain: lang_change_log
@@ -25,3 +25,8 @@ if(is_admin())
 }
 
 load_plugin_textdomain('lang_change_log', false, dirname(plugin_basename(__FILE__)).'/lang/');
+
+function activate_change_log()
+{
+	require_plugin("meta-box/meta-box.php", "Meta Box");
+}
