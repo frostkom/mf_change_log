@@ -52,8 +52,6 @@ function post_updated_change_log($post_id, $post_after, $post_before)
 			);
 
 			wp_insert_post($post_data);
-
-			//do_log(__FUNCTION__.": ".$post_id.($post_title != '' ? " (".$post_title.", ".get_current_user_id().")" : ""));
 		}
 	}
 }
