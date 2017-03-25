@@ -62,8 +62,8 @@ function post_updated_change_log($post_id, $post_after, $post_before)
 
 	if($user_id > 0)
 	{
-		$user_data = get_userdata($user_id);
-		$user_name = $user_data->display_name;
+		//$user_data = get_userdata($user_id);
+		$user_name = get_user_info(array('id' => $user_id));
 
 		$post_title = get_the_title($post_id);
 
@@ -98,10 +98,10 @@ function get_status_changes()
 
 				foreach($result as $r)
 				{
-					$user_data = get_userdata($r->post_author);
+					//$user_data = get_userdata($r->post_author);
 
 					$user_avatar = get_avatar($r->post_author, 24);
-					$user_name = $user_data->display_name;
+					$user_name = get_user_info(array('id' => $r->post_author));
 
 					$post_status_before = isset($arr_statuses[$r->comment_status]) ? $arr_statuses[$r->comment_status] : "";
 					$post_status = isset($arr_statuses[$r->post_status]) ? $arr_statuses[$r->post_status] : "";
