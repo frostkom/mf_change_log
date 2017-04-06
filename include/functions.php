@@ -17,7 +17,7 @@ function post_updated_change_log($post_id, $post_after, $post_before)
 	else
 	{
 		$post_status = $post_status_before = $post_title = "";
-		
+
 		if(isset($post_after))
 		{
 			$post_status = $post_after->post_status;
