@@ -100,10 +100,10 @@ function get_status_changes()
 		}
 	}
 
-	if($out == "")
+	/*if($out == "")
 	{
 		$out = "<em>".__("There are no status changes so far", 'lang_change_log')."</em>";
-	}
+	}*/
 
 	return $out;
 }
