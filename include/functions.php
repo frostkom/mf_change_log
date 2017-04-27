@@ -112,12 +112,12 @@ function meta_boxes_change_log($meta_boxes)
 {
 	$meta_prefix = "mf_cl_";
 
-	if(current_user_can('manage_options')) //IS_ADMIN
+	if(IS_ADMIN)
 	{
 		$meta_boxes[] = array(
 			'id' => $meta_prefix.'status_changes',
 			'title' => __("Status Changes", 'lang_change_log'),
-			'pages' => array('page'),
+			'post_types' => array('page'),
 			//'context' => 'side',
 			'priority' => 'low',
 			'fields' => array(
