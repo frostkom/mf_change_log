@@ -56,7 +56,7 @@ function post_updated_change_log($post_id, $post_after, $post_before)
 	}
 }
 
-function get_status_changes()
+function meta_status_changes()
 {
 	global $wpdb;
 
@@ -124,7 +124,7 @@ function meta_boxes_change_log($meta_boxes)
 				array(
 					'id' => $meta_prefix.'status_changes',
 					'type' => 'custom_html',
-					'callback' => 'get_status_changes',
+					'callback' => 'meta_status_changes',
 				),
 			)
 		);

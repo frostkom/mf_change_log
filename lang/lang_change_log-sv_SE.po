@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-01 11:22+0100\n"
+"POT-Creation-Date: 2017-05-22 10:53+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Fors\n"
 "Language-Team: \n"
@@ -15,35 +15,31 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../include/functions.php:92
+#: ../include/functions.php:70
 msgid "Auto-Draft"
 msgstr "Autosparad"
 
-#: ../include/functions.php:93
+#: ../include/functions.php:71
 msgid "Draft"
 msgstr "Utkast"
 
-#: ../include/functions.php:94
+#: ../include/functions.php:72
 msgid "Scheduled"
 msgstr "Tidsinställd"
 
-#: ../include/functions.php:95
+#: ../include/functions.php:73
 msgid "Pending"
 msgstr "Väntar på granskning"
 
-#: ../include/functions.php:96
+#: ../include/functions.php:74
 msgid "Published"
 msgstr "Publicerad"
 
-#: ../include/functions.php:97
+#: ../include/functions.php:75
 msgid "Trash"
 msgstr "Papperskorgen"
 
-#: ../include/functions.php:127
-msgid "There are no status changes so far"
-msgstr "Det fanns inga statusändringar ännu"
-
-#: ../include/functions.php:141
+#: ../include/functions.php:119
 msgid "Status Changes"
 msgstr "Statusändringar"
 
