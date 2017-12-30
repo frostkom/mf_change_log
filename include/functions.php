@@ -83,8 +83,6 @@ function meta_status_changes()
 
 				foreach($result as $r)
 				{
-					//$user_data = get_userdata($r->post_author);
-
 					$user_avatar = get_avatar($r->post_author, 24);
 					$user_name = get_user_info(array('id' => $r->post_author));
 
