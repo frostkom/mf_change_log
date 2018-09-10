@@ -3,10 +3,10 @@
 Plugin Name: MF Change Log
 Plugin URI: 
 Description: 
-Version: 1.3.0
+Version: 1.3.1
 Licence: GPLv2 or later
 Author: Martin Fors
-Author URI: http://frostkom.se
+Author URI: https://frostkom.se
 Text Domain: lang_change_log
 Domain Path: /lang
 
