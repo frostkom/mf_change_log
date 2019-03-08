@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-03 11:55+0100\n"
+"POT-Creation-Date: 2019-02-28 08:47+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Fors\n"
 "Language-Team: \n"
@@ -15,32 +15,31 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../include/functions.php:70
-#, fuzzy
+#: ../include/functions.php:84
 msgid "Auto-Draft"
-msgstr "Utkast"
+msgstr "Automatisk kladd"
 
-#: ../include/functions.php:71
+#: ../include/functions.php:85
 msgid "Draft"
 msgstr "Utkast"
 
-#: ../include/functions.php:72
+#: ../include/functions.php:86
 msgid "Scheduled"
 msgstr "Planlagt"
 
-#: ../include/functions.php:73
+#: ../include/functions.php:87
 msgid "Pending"
 msgstr "Venter"
 
-#: ../include/functions.php:74
+#: ../include/functions.php:88
 msgid "Published"
 msgstr "Publisert"
 
-#: ../include/functions.php:75
+#: ../include/functions.php:89
 msgid "Trash"
-msgstr ""
+msgstr "Papirkurv"
 
-#: ../include/functions.php:117
+#: ../include/functions.php:126
 msgid "Status Changes"
-msgstr ""
+msgstr "Status endringer"
 
