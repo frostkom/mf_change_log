@@ -82,7 +82,7 @@ function meta_status_changes()
 	{
 		$arr_statuses = array(
 			'auto-draft' => __("Auto-Draft", 'lang_change_log'),
-			'draft' => __("Draft", 'lang_change_log'),
+			'draft' => __("Draft"),
 			'future' => __("Scheduled", 'lang_change_log'),
 			'pending' => __("Pending", 'lang_change_log'),
 			'publish' => __("Published", 'lang_change_log'),
