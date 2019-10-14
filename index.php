@@ -3,7 +3,7 @@
 Plugin Name: MF Change Log
 Plugin URI: 
 Description: 
-Version: 1.3.4
+Version: 1.3.5
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
