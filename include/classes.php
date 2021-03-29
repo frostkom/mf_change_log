@@ -22,14 +22,6 @@ class mf_change_log
 		register_post_type($this->post_type, $args);
 	}
 
-	function admin_init()
-	{
-		if(!is_plugin_active("mf_base/index.php"))
-		{
-			deactivate_plugins(str_replace("include/classes.php", "index.php", plugin_basename(__FILE__)));
-		}
-	}
-
 	function post_updated($post_id, $post_after, $post_before)
 	{
 		$arr_exclude = array('mf_log', $this->post_type, 'attachment', 'nav_menu_item', 'revision', 'template');
