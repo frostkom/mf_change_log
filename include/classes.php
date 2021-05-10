@@ -8,6 +8,29 @@ class mf_change_log
 		$this->meta_prefix = 'mf_cl_';
 	}
 
+	function cron_base()
+	{
+		global $wpdb;
+
+		$obj_cron = new mf_cron();
+		$obj_cron->start(__CLASS__);
+
+		if($obj_cron->is_running == false)
+		{
+			/* Clean up left overs */
+			$result = $wpdb->get_results($wpdb->prepare("SELECT posts_changes.ID FROM ".$wpdb->prefix."posts AS posts_changes LEFT JOIN ".$wpdb->prefix."posts AS post_pages ON posts_changes.post_parent = post_pages.ID WHERE posts_changes.post_type = %s AND post_pages.ID IS null", $this->post_type));
+
+			foreach($result as $r)
+			{
+				//wp_trash_post($r->ID);
+				$wpdb->get_results($wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
+				//do_log("Remove: ".$wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE posts_changes.post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
+			}
+		}
+
+		$obj_cron->end();
+	}
+
 	function init()
 	{
 		$args = array(
@@ -74,6 +97,21 @@ class mf_change_log
 				);
 
 				wp_insert_post($post_data);
+			}
+		}
+	}
+
+	function wp_trash_post($post_id)
+	{
+		global $wpdb;
+
+		if(get_post_type($post_id) != $this->post_type)
+		{
+			$result = $wpdb->get_results($wpdb->prepare("SELECT ID FROM ".$wpdb->posts." WHERE post_type = %s AND post_parent = '%d'", $this->post_type, $post_id));
+
+			foreach($result as $r)
+			{
+				wp_trash_post($r->ID);
 			}
 		}
 	}
