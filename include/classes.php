@@ -17,15 +17,29 @@ class mf_change_log
 
 		if($obj_cron->is_running == false)
 		{
-			/* Clean up left overs */
+			// Clean up left overs
+			##############################
 			$result = $wpdb->get_results($wpdb->prepare("SELECT posts_changes.ID FROM ".$wpdb->prefix."posts AS posts_changes LEFT JOIN ".$wpdb->prefix."posts AS post_pages ON posts_changes.post_parent = post_pages.ID WHERE posts_changes.post_type = %s AND post_pages.ID IS null", $this->post_type));
 
 			foreach($result as $r)
 			{
-				//wp_trash_post($r->ID);
 				$wpdb->get_results($wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
-				//do_log("Remove: ".$wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE posts_changes.post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
+
+				//do_log("Remove: ".$wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
 			}
+			##############################
+
+			// Clean up old data
+			##############################
+			$result = $wpdb->get_results($wpdb->prepare("SELECT ID FROM ".$wpdb->prefix."posts WHERE post_type = %s AND post_date < DATE_SUB(NOW(), INTERVAL 1 YEAR)", $this->post_type));
+
+			foreach($result as $r)
+			{
+				$wpdb->get_results($wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
+
+				//do_log("Remove: ".$wpdb->prepare("DELETE FROM ".$wpdb->prefix."posts WHERE post_type = %s AND ID = '%d'", $this->post_type, $r->ID));
+			}
+			##############################
 		}
 
 		$obj_cron->end();
