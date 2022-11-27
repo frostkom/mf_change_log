@@ -160,8 +160,8 @@ class mf_change_log
 						$user_avatar = get_avatar($r->post_author, 24);
 						$user_name = get_user_info(array('id' => $r->post_author));
 
-						$post_status_before = isset($arr_statuses[$r->comment_status]) ? $arr_statuses[$r->comment_status] : "";
-						$post_status = isset($arr_statuses[$r->post_status]) ? $arr_statuses[$r->post_status] : "";
+						$post_status_before = (isset($arr_statuses[$r->comment_status]) ? $arr_statuses[$r->comment_status] : '');
+						$post_status = (isset($arr_statuses[$r->post_status]) ? $arr_statuses[$r->post_status] : '');
 
 						$post_date = $r->post_date;
 

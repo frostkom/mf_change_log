@@ -1,17 +1,17 @@
 <?php
 /*
 Plugin Name: MF Change Log
-Plugin URI: 
-Description: 
-Version: 1.4.5
+Plugin URI:
+Description:
+Version: 1.4.6
 Licence: GPLv2 or later
 Author: Martin Fors
-Author URI: https://frostkom.se
+Author URI: https://martinfors.se
 Text Domain: lang_change_log
 Domain Path: /lang
 
 Depends: Meta Box, MF Base
-GitHub Plugin URI: 
+GitHub Plugin URI:
 */
 
 if(!function_exists('is_plugin_active') || function_exists('is_plugin_active') && is_plugin_active("mf_base/index.php"))
