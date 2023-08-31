@@ -2,10 +2,13 @@
 
 class mf_change_log
 {
+	var $post_type = 'mf_status_change';
+	var $meta_prefix = 'mf_cl_';
+
 	function __construct()
 	{
-		$this->post_type = 'mf_status_change';
-		$this->meta_prefix = 'mf_cl_';
+		//$this->post_type = 'mf_status_change';
+		//$this->meta_prefix = 'mf_cl_';
 	}
 
 	function cron_base()

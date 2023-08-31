@@ -1,5 +1,5 @@
 ## Description
-Wordpress plugin to the possibility to view who has changed status of a post.
+Wordpress plugin to view who has changed status of a post.
 
 ## Installation
 1. Upload the folder to /wp-content/plugins/
