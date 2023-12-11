@@ -176,7 +176,7 @@ class mf_change_log
 
 	function rwmb_meta_boxes($meta_boxes)
 	{
-		if(IS_ADMIN)
+		if(IS_ADMINISTRATOR)
 		{
 			$meta_boxes[] = array(
 				'id' => $this->meta_prefix.'status_changes',
