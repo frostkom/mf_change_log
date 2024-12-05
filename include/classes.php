@@ -46,6 +46,8 @@ class mf_change_log
 
 	function init()
 	{
+		load_plugin_textdomain('lang_change_log', false, str_replace("/include", "", dirname(plugin_basename(__FILE__)))."/lang/");
+
 		$args = array(
 			'labels' => array(),
 			'public' => false,

@@ -3,7 +3,7 @@
 Plugin Name: MF Change Log
 Plugin URI:
 Description:
-Version: 1.4.10
+Version: 1.4.11
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://martinfors.se
@@ -33,8 +33,6 @@ if(!function_exists('is_plugin_active') || function_exists('is_plugin_active') &
 
 		add_action('rwmb_meta_boxes', array($obj_change_log, 'rwmb_meta_boxes'));
 	}
-
-	load_plugin_textdomain('lang_change_log', false, dirname(plugin_basename(__FILE__))."/lang/");
 
 	function activate_change_log()
 	{
