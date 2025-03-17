@@ -48,16 +48,17 @@ class mf_change_log
 	{
 		load_plugin_textdomain('lang_change_log', false, str_replace("/include", "", dirname(plugin_basename(__FILE__)))."/lang/");
 
-		$args = array(
+		// Post types
+		#######################
+		register_post_type($this->post_type, array(
 			'labels' => array(),
 			'public' => false,
 			'show_ui' => false,
 			'show_in_menu' => false,
 			'show_in_nav_menus' => false,
 			'exclude_from_search' => true,
-		);
-
-		register_post_type($this->post_type, $args);
+		));
+		#######################
 	}
 
 	function post_updated($post_id, $post_after, $post_before)
